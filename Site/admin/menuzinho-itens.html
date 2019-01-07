@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Petit Poti</title>
+		<link rel="stylesheet" href="../assets/css/admin.css">
+		<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+		<!--Links-->
+		<!--Fontes --> <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+		<!--Jquery--> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<!--Ajax--> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<!--Javascrip Bootstrap--> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<!--Font Awesome--> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<!--Nav Lateral-->
+				<div class="col-2" id="nav-lateral">
+					<!--Infos do Usuário-->
+					<div id="usuario">
+						<div class="circle align-self-center">
+							<img src="../assets/img/nathalia.jpg">
+						</div>
+						<div id="usuario-nome" class="align-self-center" >
+							<span>Nathália Groner</span>
+							<span id="cargo"> Proprietária </span>
+						</div>
+					</div>
+					<!--Menu-->	
+					<ul class="nav nav-pills flex-column">
+				  		<li class="nav-item">
+					    	<a class="nav-link" href="#">Início</a>
+					  	</li>
+					  	<li class="nav-item">
+						    <a class="nav-link" href="#" >Menuzinho</a>
+						</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#">Nossos Cuidados</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#">Cursos</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#">Petit Bistrô</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#">Petit Café</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#">Petit Poti na Mídia</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#">Localização</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#">Contato</a>
+					  	</li>
+					</ul>				
+				</div>
+				<!--Dashboard-->
+				<div class="col-10" id="dashboard">
+					<!--Botões-->
+					<div class="row justify-content-end">
+						<div class="col-4" id="editar"> 
+							<div class="ops" id="editar"> Editar perfil </div>
+							<div class="ops" id="sair"> Sair <i class="fas fa-angle-down"></i> </div>
+						</div>
+					</div>
+
+					<!--Título da Página e Botões-->
+					<div class="row">
+						<div class="col-12">
+							<h1 class="me"> Menuzinho </h1>
+							<button type="button" class="btn btn-naveg me"> Categorias </button>
+							<button type="button" class="btn btn-naveg" style="background-color: #b6d201;"> Itens </button>
+						</div> 
+					</div>
+
+					<!--Blocos-->
+					<div class="row">
+						<!--Lista-->
+						<div class="col-6">
+							<div class="bloco me" id>
+								<div class="item-lista">
+									<div class="row">
+										<div class="col-9 align-self-center"> Item 1 </div>
+										<div class="col-2 align-self-center"> <i class="fas fa-edit"></i> </div>
+										<div class="col-1 align-self-center"> <i class="fas fa-trash-alt"></i> </div>
+									</div>
+								</div>
+								<div class="item-lista">
+									<div class="row">
+										<div class="col-9 align-self-center"> Item 2 </div>
+										<div class="col-2 align-self-center"> <i class="fas fa-edit"></i> </div>
+										<div class="col-1 align-self-center"> <i class="fas fa-trash-alt"></i> </div>
+									</div>
+								</div>
+								<div class="item-lista">
+									<div class="row">
+										<div class="col-9 align-self-center"> Item 3 </div>
+										<div class="col-2 align-self-center"> <i class="fas fa-edit"></i> </div>
+										<div class="col-1 align-self-center"> <i class="fas fa-trash-alt"></i> </div>
+									</div>
+								</div>
+								<div class="item-lista">
+									<div class="row">
+										<div class="col-9 align-self-center"> Item 4 </div>
+										<div class="col-2 align-self-center"> <i class="fas fa-edit"></i> </div>
+										<div class="col-1 align-self-center"> <i class="fas fa-trash-alt"></i> </div>
+									</div>
+								</div>
+								<div class="item-lista">
+									<div class="row">
+										<div class="col-9 align-self-center"> Item 5 </div>
+										<div class="col-2 align-self-center"> <i class="fas fa-edit"></i> </div>
+										<div class="col-1 align-self-center"> <i class="fas fa-trash-alt"></i> </div>
+									</div>
+								</div>
+								<div class="item-lista">
+									<div class="row">
+										<div class="col-9 align-self-center"> Item 6 </div>
+										<div class="col-2 align-self-center"> <i class="fas fa-edit"></i> </div>
+										<div class="col-1 align-self-center"> <i class="fas fa-trash-alt"></i> </div>
+									</div>
+								</div>
+								<div class="item-lista">
+									<div class="row">
+										<div class="col-9 align-self-center"> Item 7 </div>
+										<div class="col-2 align-self-center"> <i class="fas fa-edit"></i> </div>
+										<div class="col-1 align-self-center"> <i class="fas fa-trash-alt"></i> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6">
+							<!--Botão-->
+							<div class="bloco d-flex align-content-center flex-wrap ">
+								<button type="button" class="btn btn-criar align-self-center"> Novo Item </button>
+							</div>
+							<br>
+							<!--Editar-->
+							<div class="bloco">
+								<div id="editar">
+									<form>
+										<br>
+										<div class="form-group row">
+											<label for="inputText" class="col-3 col-form-label" id="lNome">Nome</label>
+										    <div class="col-9">
+										      <input type="text" class="form-control" id="inputText" placeholder="Nome">
+										    </div>
+										</div>
+										<div class="form-group row">
+											<label for="inputPeso" class="col-3 col-form-label" id="lPeso">Peso</label>
+										    <div class="col-9">
+										      <input type="text" class="form-control" id="inputPeso" placeholder="Peso (em gramas)">
+										    </div>
+										</div>
+										<div class="form-group row">
+											<label for="inputIngredientes" class="col-3 col-form-label" id="lIngredientes">Ingredientes</label>
+											<div class="col-9">
+												<textarea id="inputIngredientes" name="ingredientes" rows="6" cols="30"></textarea>
+											</div>
+										</div>
+										<div class="row justify-content-end">
+											<div class="col-3">
+												<button type="button" class="btn" id="btn-cancelar" style="background-color: #e01f1f;"> Cancelar </button>
+											</div>
+											<div class="col-3">
+												<button type="button" class="btn" id="btn-salvar"> Salvar </button>
+											</div>
+										</div> 
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Petit Poti</title>
+		<link rel="stylesheet" href="assets/css/index.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!--Nav-->
+		<nav class="nav justify-content-end" role="tablist">
+			<a class="nav-link active" id="menuzinho-tab" data-toggle="tab" href="#menuzinho" role="tab" aria-controls="menuzinho" aria-selected="false">Menuzinho</a>
+			<a class="nav-link" id="cuidado-tab" data-toggle="tab" href="#cuidado" role="tab" aria-controls="cuidado" aria-selected="false" href="#">Cuidado</a>
+		  	<a class="nav-link" id="cursos-tab" data-toggle="tab" href="#cursos" role="tab" aria-controls="cursos" aria-selected="false" href="#">Curso</a>
+		  	<a class="nav-link" id="bistro-tab" data-toggle="tab" href="#bistro" role="tab" aria-controls="bistro" aria-selected="false" href="#">Bistrô</a>
+		  	<a class="nav-link" id="midia-tab" data-toggle="tab" href="#midia" role="tab" aria-controls="midia" aria-selected="false" href="#">Mídia</a>
+		  	<a class="nav-link" id="localizacao-tab" data-toggle="tab" href="#localizacao" role="tab" aria-controls="localizacao" aria-selected="false" href="#s">Localização</a>
+		  	<a class="nav-link" id="contato-tab" data-toggle="tab" href="#contato" role="tab" aria-controls="contato" aria-selected="false" href="#">Contato</a>
+		  	<a class="nav-link" id="idioma-tab" data-toggle="tab" href="" role="tab" aria-controls="idioma" aria-selected="false" href="#">Idioma</a>
+		</nav>
+
+		<!--Texto inicial e forma-->
+		<div id="bg" style="background-image: url(assets/img/bg_index.png); position: absolute;">
+			<div id="texto-inicial">
+				<h1> Você tem tempo <br> para fazer a <br> <span style="color:#bdd108;">melhor comida </span> <br> para seu bebê?</h1>
+				<h3> Nós temos. </h3>
+				<h3> <span style="color: #dea900;"> E preparamos tudo com muito <br> amor e carinho sempre. </span></h3>
+
+				<i class="fas fa-angle-down"></i>
+			</div>
+		</div>
+
+		<!--Slider-->
+		<div id="slider" class="carousel slide" data-ride="carousel">
+		  	<div class="carousel-inner">
+		    	<div class="carousel-item active">
+		      		<div class="slider-img" style="background-image: url(assets/img/produtos.jpg);" alt="Nossos produtos!"></div>
+		   	 	</div>
+			    <div class="carousel-item">
+			    	<div class="slider-img" style="background-image: url(assets/img/cubinhos.jpg);" alt="Cubinhos Petit Poti!"></div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="slider-img" style="background-image: url(assets/img/sopinhas.jpg);" alt="Sopinhas deliciosas!"></div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="slider-img" style="background-image: url(assets/img/frutinhas.jpg);" alt="Frutinhas super saudáveis para seu bebê!"></div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="slider-img" style="background-image: url(assets/img/bolinhos.jpg);" alt="Os bolinhos mais gostosos!"></div>
+				</div>
+		  	</div>
+		</div>
+
+		<div class="container">		
+			<!--Menuzinho-->
+			<div class="row">
+				<div id="menuzinho" class="tab-pane" role="tabpanel" aria-labelledby="menuzinho-tab">
+					<h1> Menuzinho </h1>
+					<!--Botões-->
+					<div class="row justify-content-center">
+						<button type="button" class="btn-menuzinho azul">Ciclo 1</button>
+						<button type="button" class="btn-menuzinho azul">Ciclo 2</button>
+						<button type="button" class="btn-menuzinho azul">Crescidinhos</button>
+						<button type="button" class="btn-menuzinho laranja">Cubinhos</button>
+						<button type="button" class="btn-menuzinho laranja">Sopinhas</button>
+						<button type="button" class="btn-menuzinho laranja">Frutinhas</button>
+						<button type="button" class="btn-menuzinho verde">Lanches e Festas</button>
+						<button type="button" class="btn-menuzinho verde">Outros</button>
+					</div>
+
+					<!--Itens-->
+					<div class="row justify-content-center">
+						<div class="item">
+							<img src="assets/img/bolinhos.jpg">
+							<h5> Bolinhos </h5>
+							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
+							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
+						</div>
+
+						<div class="item">
+							<img src="assets/img/bolinhos.jpg">
+							<h5> Bolinhos </h5>
+							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
+							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
+						</div>
+
+						<div class="item">
+							<img src="assets/img/bolinhos.jpg">
+							<h5> Bolinhos </h5>
+							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
+							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
+						</div>
+
+						<div class="item">
+							<img src="assets/img/bolinhos.jpg">
+							<h5> Bolinhos </h5>
+							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
+							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
+						</div>
+
+						<!--<div class="item">
+							<img src="assets/img/bolinhos.jpg">
+							<h5> Bolinhos </h5>
+							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
+							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
+						</div>-->
+					</div>
+
+					<i class="fas fa-angle-down"></i>
+				</div>
+			</div>
+
+			<!--Nosso Cuidado-->
+			<div class="row" style="height: 500px;">
+				<div class="tab-pane" id="cuidado" role="tabpanel" aria-labelledby="cuidado-tab">
+					Nosso cuidado
+				</div>
+			</div>
+
+			<!--Bistro-->
+			<div class="row" style="height: 500px;">
+				<div class="tab-pane" id="bistro" role="tabpanel" aria-labelledby="bistro-tab">
+					Bistrôzaaao
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

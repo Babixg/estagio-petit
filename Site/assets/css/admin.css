@@ -1,0 +1,305 @@
+/*item {
+	FONTE
+	TAMANHO
+	COR 
+	ESTILO 
+	POSIÇÃO
+}*/
+
+body {
+	background: rgb(246,246,246);
+}
+/*MENU LATERAL*/
+	#nav-lateral {
+		width: 100%;
+		height: 100%;
+		background-color: #24bec0;
+		overflow: hidden;
+	}
+
+		#usuario {
+			width: 80%;
+			height: 23%;
+			margin: auto;
+			margin-top: 5vh;
+			margin-bottom: 3vh;
+		}
+
+			.circle {
+			  	width: 115px;
+				height: 115px;
+				background-color: #00acb0; 
+				border-radius: 50%;
+				overflow: hidden;
+				position: relative;
+				margin: auto;
+			}
+
+				.circle img {
+					width: 100%;
+			  		height: 100%;
+				  	position: absolute;
+				  	margin: auto;
+				  	bottom: 0;
+				}
+
+			#usuario-nome {
+				font-family: 'Quicksand', sans-serif;
+				font-size: 1rem;
+				color: white;
+				background-color: #b6d201;
+				width: 90%;
+				margin: auto;
+				text-align: center;
+				border-radius: 70px;
+				padding: 0.4rem;
+				position: relative;
+				z-index: 1;
+				margin-top: -20px;
+				overflow: hidden;
+			}
+
+				#cargo {
+					font-size: 12px;
+					font-style: italic;
+					overflow: hidden;
+				}
+
+		.nav {
+			font-size: 1rem;
+			align-items: center;
+			position: relative;
+		}
+
+			.nav a, .nav a:hover {
+				color: white;
+				padding: 0.4em;
+			}
+
+			.nav-item {
+				font-family: 'Quicksand', sans-serif;
+				width: 90%;
+				text-align: center;
+				background-color: #00acb0;
+				margin: 0.25rem 0rem;
+				border-radius: 30px;
+				overflow: hidden;
+			}
+
+			.nav-item:hover {
+				color: white;
+				background-color: #b6d201;
+			}
+
+/*DASHBOARD*/
+	#dashboard {
+		background-color: rgb(246,246,246);
+		overflow: hidden;
+	}
+
+	/*BOTOES SAIR/EDITAR*/
+		.ops {
+			font-family: 'Quicksand', sans-serif;
+			font-size: 1.1rem;
+			font-weight: 700;
+			padding: 3vh;
+			float: left;
+		}
+
+		#editar {
+			color: #24bec0;
+		}
+
+		#sair {
+			color: #ff2e2e;
+		}
+
+	/*MARGEM ESQUERDA*/
+		.me {
+			margin: 1vh 1vh 1vh 4vh;
+		}
+
+	/*TITULO PAGINA*/
+		#dashboard h1 {
+			font-family: 'Quicksand', sans-serif;
+			color: #24bec0;
+		}
+
+	/*BOTOES NAVEGAÇÃO*/
+		#dashboard .btn-naveg {
+			font-family: 'Quicksand', sans-serif;
+			font-weight: 700;
+			color: white;
+			background-color: #24bec0;
+			border: none;
+			border-radius: 30px;
+		}
+
+		#dashboard .btn-naveg:hover, #dashboard .btn-naveg:active {
+			background-color: #b6d200;
+		}
+
+	/*BLOCOS*/
+		.bloco {
+			background-color: white;
+			border-radius: 30px;
+			padding: 1vh;
+			margin-right: 3vh;
+		}
+
+		.bloco .item-lista {
+			font-family: 'Quicksand', sans-serif;
+			font-weight: 500;
+			font-size: 1.25rem;
+			color: #484e4e;
+			height: 40px;
+			background-color: #24bec0;
+			border-radius: 30px;
+			padding: 0.75vh 4vh 0.75vh 2vh;
+			margin: 3vh;
+			overflow: hidden;
+		}
+
+		.bloco .item-lista:hover, .bloco .item-lista:active {
+			background-color: #b6d200;	
+		}
+
+			.item-lista i {
+				float: right;
+			}
+
+			.bloco .btn-criar {
+				font-family: 'Quicksand', sans-serif;
+				font-weight: 700;
+				color: white;
+				background-color: #24bec0;
+				width: 90%;
+				height: 35px;
+				border: none;
+				border-radius: 30px;
+				margin: auto;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			.bloco .btn-criar:hover, .bloco .btn-criar:active {
+				background-color: #b6d200;
+			}
+		
+		/*EDIÇÃO*/
+		 	.editar{
+		 		font-family: 'Quicksand', sans-serif;
+				font-weight: 700;
+				font-size: 1.25rem;
+				color: black;
+		 		height: 100%;
+		 	}
+
+	 		/*"NOME" e PESO*/
+			 	#inputText, #inputPeso{
+			 		font-family: 'Quicksand', sans-serif;
+			 		font-size: 0.9rem;
+			 		background-color: #f6f6f6;
+			 		border: none;
+			 		border-radius: 30px;
+			 		width: 90%;
+			 	}
+
+			/*INGREDIENTES*/
+			#inputIngredientes{
+			 		font-family: 'Quicksand', sans-serif;
+			 		font-size: 0.9rem;
+			 		color: #484e4e;
+			 		background-color: #f6f6f6;
+			 		border: none;
+			 		border-radius: 30px;
+			 		width: 90%;
+			 		padding: 15px;
+			 	}
+
+			 	.col-form-label {
+			 		font-family: 'Quicksand', sans-serif;
+					font-weight: 700;
+			 		color: #24bec0;
+			 		text-align: right;
+			 	}
+
+		 	/*NOME DOS ITENS*/
+			 	#titulo {
+			 		font-family: 'Quicksand', sans-serif;
+					font-weight: 700;
+					text-align: center;
+					margin-bottom: 2vh;
+			 	}
+
+			 	#lista {
+			 		width: 90%; 
+			 		margin: auto;
+			 		margin-bottom: 2vh;
+			 	}
+
+			 	.custom-control-label {
+			 		font-family: 'Quicksand', sans-serif;
+					font-weight: 700;
+					font-size: 0.9rem;
+					color: #484e4e;
+			 	}
+
+			/*BOTÕES*/
+				#btn-cancelar {
+					font-family: 'Quicksand', sans-serif;
+					font-weight: 700;
+					color: white;
+					background-color: #e01f1f;
+					border: none;
+					border-radius: 30px;
+					float: right;
+				}
+
+				#btn-salvar {
+					font-family: 'Quicksand', sans-serif;
+					font-weight: 700;
+					color: white;
+					background-color: #b6d200;
+					border: none;
+					border-radius: 30px;
+				}
+
+/*LOGIN*/
+	#login {
+		background-color: #00bfc1;
+		border-radius: 30px;
+		padding: 5vh;
+		margin: auto;
+		top: 50%;
+		transform: translate(0, 40%);
+	}
+		#login h3 {
+			font-family: 'Quicksand', sans-serif;
+			font-weight: 700;
+			color: white;
+		}
+
+		#login #lEmail, #login #lSenha {
+			text-align: left;
+			color: white;
+		}
+
+		#login #inputEmail, #login #inputSenha {
+			font-family: 'Quicksand', sans-serif;
+	 		font-size: 1rem;
+	 		background-color: #f6f6f6;
+	 		border: none;
+	 		border-radius: 30px;
+		}
+
+		#btn-entrar {
+			font-family: 'Quicksand', sans-serif;
+			font-weight: 700;
+			color: white;
+			background-color: #b6d200;
+			width: 100%;
+			border: none;
+			border-radius: 30px;
+			margin-top: 2vh;
+		}
