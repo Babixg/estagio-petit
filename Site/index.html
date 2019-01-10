@@ -1,15 +1,15 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Petit Poti</title>
+		<!--Style-->
 		<link rel="stylesheet" href="assets/css/index.css">
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<!--Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	</head>
 	<body>
 		<!--Nav-->
@@ -25,7 +25,7 @@
 		</nav>
 
 		<!--Texto inicial e forma-->
-		<div id="bg" style="background-image: url(assets/img/bg_index.png); position: absolute;">
+		<div id="bg" style="background-image: url(assets/img/bg.png);">
 			<div id="texto-inicial">
 				<h1> Você tem tempo <br> para fazer a <br> <span style="color:#bdd108;">melhor comida </span> <br> para seu bebê?</h1>
 				<h3> Nós temos. </h3>
@@ -56,11 +56,11 @@
 		  	</div>
 		</div>
 
-		<div class="container">		
+		<div class="container">
 			<!--Menuzinho-->
 			<div class="row">
-				<div id="menuzinho" class="tab-pane" role="tabpanel" aria-labelledby="menuzinho-tab">
-					<h1> Menuzinho </h1>
+				<section id="menuzinho" class="sec-site"> 
+					<h1 class="titulo-h1"> Menuzinho </h1>
 					<!--Botões-->
 					<div class="row justify-content-center">
 						<button type="button" class="btn-menuzinho azul">Ciclo 1</button>
@@ -75,35 +75,35 @@
 
 					<!--Itens-->
 					<div class="row justify-content-center">
-						<div class="item">
+						<div class="m-item">
 							<img src="assets/img/bolinhos.jpg">
 							<h5> Bolinhos </h5>
 							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
 							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 						</div>
 
-						<div class="item">
+						<div class="m-item">
 							<img src="assets/img/bolinhos.jpg">
 							<h5> Bolinhos </h5>
 							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
 							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 						</div>
 
-						<div class="item">
+						<div class="m-item">
 							<img src="assets/img/bolinhos.jpg">
 							<h5> Bolinhos </h5>
 							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
 							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 						</div>
 
-						<div class="item">
+						<div class="m-item">
 							<img src="assets/img/bolinhos.jpg">
 							<h5> Bolinhos </h5>
 							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
 							<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 						</div>
 
-						<!--<div class="item">
+						<!--<div class="m-item">
 							<img src="assets/img/bolinhos.jpg">
 							<h5> Bolinhos </h5>
 							<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
@@ -112,22 +112,33 @@
 					</div>
 
 					<i class="fas fa-angle-down"></i>
-				</div>
+				</section>
 			</div>
+		</div>
 
+		<div class="container">
 			<!--Nosso Cuidado-->
-			<div class="row" style="height: 500px;">
-				<div class="tab-pane" id="cuidado" role="tabpanel" aria-labelledby="cuidado-tab">
-					Nosso cuidado
-				</div>
+			<div class="row">
+				<section id="cuidado" class="sec-site"> 
+					<h1 class="titulo-h1"> Nosso Cuidado </h1>
+					<div class="row justify-content-center">
+						<div class="col-4">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+
+						<div class="col-4">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+
+						<div class="col-4">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+					</div>
+
+					<i class="fas fa-angle-down""></i>
+				</section>
 			</div>
 
-			<!--Bistro-->
-			<div class="row" style="height: 500px;">
-				<div class="tab-pane" id="bistro" role="tabpanel" aria-labelledby="bistro-tab">
-					Bistrôzaaao
-				</div>
-			</div>
 		</div>
 	</body>
 </html>
