@@ -32,6 +32,14 @@ body, head {
 		text-align: center;	
 	}
 
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
 /*Navbar*/
 	.nav {
 			font-family: 'Quicksand', sans-serif;
@@ -182,10 +190,130 @@ body, head {
 
 /*Nosso Cuidado*/
 	#cuidado {
-		font-family: 'Quicksand', sans-serif;
-		color: #24bec0;
-		width: 100%;
-		height: 100vh;
-		text-align: center;
-		background-color: red;
+		color: #7e7e7e;
+		/*background-color: red;*/
 	}
+
+		#cuidado img {
+			width: 30%;
+			margin-bottom: 10px;
+		}
+
+/*Curso*/
+	#curso {
+		font-weight: bold;
+		color: #7e7e7e;
+	}
+
+		.texto-grande {
+			font-size: 20px;
+		}
+
+		.imagem {
+			height: 180px;
+			width: 185px;
+			margin: 0px 5px;
+			background-color: red;
+		}
+
+/*Bistrô*/
+	#bistro {
+		font-weight: bold;
+		color: #7e7e7e;
+		height: 90vh;
+	}
+
+/*Mídia*/
+	#midia {
+
+	}
+		.video {
+			height: 220px;
+			margin: 0px 10px 20px 10px;
+			padding: 15px;
+			border: 10px solid #bdd108;
+			border-radius: 60px;
+		}
+
+		.desc-video {
+			font-size: 22px;
+			font-weight: bold;
+			color: #bdd108;
+			margin-top: 5px;
+		}
+
+/*Localização*/
+	#localização {
+	}
+
+		#localizacao .texto-grande {
+			font-weight: bold;
+			color: #7e7e7e;
+		}
+
+/*Contato*/
+	#contato {
+		height: 400px;
+	}
+		#contato .texto-grande {
+			font-weight: bold;
+			color: #7e7e7e;
+		}
+
+		.btn-contato {
+			text-align: left;
+			width: 310px;
+			height: 80px;
+			margin: 20px 15px;
+			padding: 10px;
+			border-radius: 50px;
+		}
+			.btn-contato-icone {
+				font-size: 36px;
+				text-align: center;
+				height: 60px;
+				width: 90px;
+				color: #525252;
+				padding: 12px;
+				background-color: white;
+				border-radius: 30px;
+			}
+
+			.btn-contato-item {
+				text-align: left;
+				font-size: 24px;
+				font-weight: bold;
+				color: white;
+				margin: 0px;
+			}
+
+			.btn-contato-info {
+				font-size: 14px;
+				font-weight: bold;
+				color: #525252;
+				margin-top: -2px;
+			}
+
+		#footer {
+			font-size: 18px;
+			font-family: 'Quicksand', sans-serif;
+			font-weight: bold;
+			color: white;
+			text-align: center;
+			margin: 0px;
+			height: 270px;
+			width: 100%;
+			background-color: #24bec0;
+			position: absolute;
+		}
+
+			#sub-footer{
+				height: 48px;
+				padding: 12px;
+				background-color: #27cfd1;
+			}
+
+				#sub-footer a {
+					font-size: 24px;
+					color: white;
+				}

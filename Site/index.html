@@ -11,17 +11,23 @@
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	</head>
+	<script type="text/javascript">
+		mostrarIdiomas(){
+
+		}
+	</script>
+
 	<body>
 		<!--Nav-->
 		<nav class="nav justify-content-end" role="tablist">
 			<a class="nav-link active" id="menuzinho-tab" data-toggle="tab" href="#menuzinho" role="tab" aria-controls="menuzinho" aria-selected="false">Menuzinho</a>
 			<a class="nav-link" id="cuidado-tab" data-toggle="tab" href="#cuidado" role="tab" aria-controls="cuidado" aria-selected="false" href="#">Cuidado</a>
-		  	<a class="nav-link" id="cursos-tab" data-toggle="tab" href="#cursos" role="tab" aria-controls="cursos" aria-selected="false" href="#">Curso</a>
+		  	<a class="nav-link" id="cursos-tab" data-toggle="tab" href="#curso" role="tab" aria-controls="curso" aria-selected="false" href="#">Curso</a>
 		  	<a class="nav-link" id="bistro-tab" data-toggle="tab" href="#bistro" role="tab" aria-controls="bistro" aria-selected="false" href="#">Bistrô</a>
 		  	<a class="nav-link" id="midia-tab" data-toggle="tab" href="#midia" role="tab" aria-controls="midia" aria-selected="false" href="#">Mídia</a>
 		  	<a class="nav-link" id="localizacao-tab" data-toggle="tab" href="#localizacao" role="tab" aria-controls="localizacao" aria-selected="false" href="#s">Localização</a>
 		  	<a class="nav-link" id="contato-tab" data-toggle="tab" href="#contato" role="tab" aria-controls="contato" aria-selected="false" href="#">Contato</a>
-		  	<a class="nav-link" id="idioma-tab" data-toggle="tab" href="" role="tab" aria-controls="idioma" aria-selected="false" href="#">Idioma</a>
+		  	<a class="nav-link" id="idioma-tab" onclick="mostrarIdiomas();" data-toggle="tab" role="tab" aria-controls="idioma" aria-selected="false" href="#">Idioma</a>
 		</nav>
 
 		<!--Texto inicial e forma-->
@@ -56,8 +62,8 @@
 		  	</div>
 		</div>
 
+		<!--Menuzinho-->
 		<div class="container">
-			<!--Menuzinho-->
 			<div class="row">
 				<section id="menuzinho" class="sec-site"> 
 					<h1 class="titulo-h1"> Menuzinho </h1>
@@ -116,29 +122,258 @@
 			</div>
 		</div>
 
+		<!--Nosso Cuidado-->
 		<div class="container">
-			<!--Nosso Cuidado-->
 			<div class="row">
 				<section id="cuidado" class="sec-site"> 
 					<h1 class="titulo-h1"> Nosso Cuidado </h1>
+					<br> 
 					<div class="row justify-content-center">
 						<div class="col-4">
+							<div> <img src="assets/img/planejamento.png"> </div>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 						</div>
 
 						<div class="col-4">
+							<div> <img src="assets/img/ingredientes.png"> </div>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 						</div>
 
 						<div class="col-4">
+							<div> <img src="assets/img/preparo.png"> </div>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 						</div>
 					</div>
+					<br> <br>
+					<div class="row justify-content-center">
+						<div class="col-4">
+							<div> <img src="assets/img/refrigeramento.png"> </div>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
 
+						<div class="col-4">
+							<div> <img src="assets/img/armazenamento.png"> </div>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+
+						<div class="col-4">
+							<div> <img src="assets/img/entrega.png"> </div>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+					</div>
 					<i class="fas fa-angle-down""></i>
 				</section>
 			</div>
-
 		</div>
+
+		<!--Introdução Alimentar-->
+		<div class="container">
+			<div class="row">
+				<section id="curso" class="sec-site"> 
+					<h1 class="titulo-h1"> Curso de Introdução Alimentar </h1>
+					<br> 
+					<div class="row justify-content-center">
+						<p class="texto-grande">
+							<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? </span>
+						</p>
+						<p class="texto-grande">
+							Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit <br> amet eros facilisis.
+						</p>
+						<p class="texto-grande">
+							Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac <br> volutpat est ligula eu erat. 
+						</p>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+					</div>
+
+					<i class="fas fa-angle-down"></i>
+				</section>
+			</div>
+		</div>
+
+		<!--Petit Bistrô-->
+		<div class="container">
+			<div class="row">
+				<section id="bistro" class="sec-site"> 
+					<h1 class="titulo-h1"> Petit Bistrô </h1>
+					<br> 
+					<div class="row justify-content-center">
+						<p class="texto-grande">
+							<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? </span>
+						</p>
+						<p class="texto-grande">
+							Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit <br> amet eros facilisis.
+						</p>
+						<p class="texto-grande">
+							Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac <br> volutpat est ligula eu erat. 
+						</p>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="imagem" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+					</div>
+
+					<i class="fas fa-angle-down"></i>
+				</section>
+			</div>
+		</div>
+
+		<!--Petit na Mídia-->
+		<div class="container">
+			<div class="row">
+				<section id="midia" class="sec-site"> 
+					<h1 class="titulo-h1"> Petit na Mídia </h1>
+					<br> 
+					<div class="row justify-content-center">
+						<div class="col-10">
+							<div class="row">
+								<div class="col video">
+									<iframe width="240px" height="135px" 
+										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									</iframe>
+									<p class="desc-video"> Lorem Ipsum </p>
+								</div>
+								<div class="col video">
+									<iframe width="240px" height="135px" 
+										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									</iframe>
+									<p class="desc-video"> Lorem Ipsum </p>
+								</div>
+								<div class="col video">
+									<iframe width="240px" height="135px" 
+										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									</iframe>
+									<p class="desc-video"> Lorem Ipsum </p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col video">
+									<iframe width="240px" height="135px" 
+										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									</iframe>
+									<p class="desc-video"> Lorem Ipsum </p>
+								</div>
+								<div class="col video">
+									<iframe width="240px" height="135px" 
+										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									</iframe>
+									<p class="desc-video"> Lorem Ipsum </p>
+								</div>
+								<div class="col video">
+									<iframe width="240px" height="135px" 
+										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									</iframe>
+									<p class="desc-video"> Lorem Ipsum </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- SnapWidget -->
+				</section>
+			</div>
+		</div>
+		<iframe src="https://snapwidget.com/embed/644832" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:160px; margin-left: 0px;"></iframe>
+
+		<!--Localização-->
+		<div class="container">
+			<div class="row">
+				<section id="localizacao" class="sec-site"> 
+					<h1 class="titulo-h1"> Localização </h1>
+					<p class="texto-grande"> Venha nos conhecer! </p>
+					<div class="row justify-content-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2806.790713069088!2d-35.20390238299861!3d-5.798832566642134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3e49669816f040e3!2sPetit+Poti!5e0!3m2!1spt-BR!2sbr!4v1547164492627" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+
+					<i class="fas fa-angle-down"></i>
+				</section>
+			</div>
+		</div>
+
+		<!--Contato-->
+		<div class="container">
+			<div class="row">
+				<section id="contato" class="sec-site"> 
+					<h1 class="titulo-h1"> Contato </h1>
+					<p class="texto-grande" style="color: #525252"> Ligue para nós! Temos delivery :D </p>
+					<p class="texto-grande"> Aceitamos débito e crédito </p>
+					<div class="row justify-content-center">
+						<div class="btn-contato" style="background-color: #24bec0;">
+							<div class="row">
+								<div class="col-4">
+									<div class="btn-contato-icone">
+										<i class="fas fa-phone"></i>
+									</div>
+								</div>
+								<div class="col-8">
+									<p class="btn-contato-item"> Telefone </p>
+									<p class="btn-contato-info"> (84) 3014-1414 </p>
+								</div>
+							</div>							
+						</div>
+
+						<a href="https://api.whatsapp.com/send?phone=558481404440">
+						<div class="btn-contato" style="background-color: #bdd108;">
+							<div class="row">
+								<div class="col-4">
+									<div class="btn-contato-icone">
+										<i class="fas fa-comment"></i>
+									</div>
+								</div>
+								<div class="col-8">
+									<p class="btn-contato-item"> Whatsapp </p>
+									<p class="btn-contato-info"> (84) 98140-4400 </p>
+								</div>
+							</div>							
+						</div> </a>
+
+						<div class="btn-contato" style="background-color: #dea900;">
+							<div class="row">
+								<div class="col-4">
+									<div class="btn-contato-icone">
+										<i class="fas fa-envelope"></i>
+									</div>
+								</div>
+								<div class="col-8">
+									<p class="btn-contato-item"> Email </p>
+									<p class="btn-contato-info"> petitpoti@gmail.com </p>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<!--Rodapé-->
+		<footer id="footer">
+			<div id="sub-footer">
+				Siga nas redes sociais    
+				<span style="margin-left: 12px;">
+					<a href="https://www.facebook.com/petitpoti"><i class="fab fa-facebook-square"></i></a>
+				</span>
+				<span style="margin-left: 6px;">
+					<a href="https://www.instagram.com/petitpoti"><i class="fab fa-instagram"></i></a>
+				</span>
+			</div>
+			<br>
+			Copyright © 2019 Petit Poti - Todos os direitos reservados
+			<br><br>
+			CNPJ 21.609.857/000183
+			<br><br>
+			Av. Rodrigues Alves, 1276 - Tirol, Natal/RN | CEP 59020-200
+		</footer>
 	</body>
 </html>
