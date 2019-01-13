@@ -18,58 +18,37 @@
 	</head>
 	<body>
 		<!--Nav-->
-		<ul class="nav navigation row justify-content-end" style="margin-left: 0px;">
+		<nav id="navzinha" class="nav navbar navbar-expand-lg" style="height: 50px;  position: fixed;">
 			<a class="navbar-brand" href="#">
 			    <img src="assets/img/petitpoti.png" width="150" alt="Petit Poti">
 			</a>
 
-			<!-- <li><img class="align-middle" id="logo" src=""></li> -->
-			<li><a class="nav-link" id="inicio-tab">Início</a></li>
-			<li><a class="nav-link" id="menuzinho-tab">Menuzinho</a></li>
-			<li><a class="nav-link" id="cuidado-tab" >Cuidado</a></li>
-			<li><a class="nav-link" id="cursos-tab">Curso</a></li>
-			<li><a class="nav-link" id="bistro-tab">Bistrô</a></li>
-			<li><a class="nav-link" id="midia-tab">Mídia</a></li>
-			<li><a class="nav-link" id="localizacao-tab">Localização</a></li>
-			<li><a class="nav-link" id="contato-tab">Contato</a></li>
-			<li><a class="nav-link" id="idioma-tab" data-toggle="modal" data-target="#modal-idiomas">Idioma</a></li>
-		</ul>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+		    	<i class="fas fa-bars" style="color: #24bec0;"></i>
+		  	</button>
 
-		<style>
-			@media only screen and (max-width: 1000px) {
-				.titulo-h1 {
-					font-size: 2.3rem;
-				}
-
-				#bg {
-					background-image: url(assets/img/bg-responsive.png);
-				}
-
-				#texto-inicial {
-					top: 20%;
-				}
-				#texto-inicial h1 {
-					font-size: 30px;
-				}
-
-				#texto-inicial h3 {
-					font-size: 20px;
-				}
-
-				#cuidado img {
-					margin-top: 20px;
-				}
-			}
-		</style>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav" style="text-align: right;">
+			      	<li><a class="nav-link" id="inicio-tab">Início</a></li>
+					<li><a class="nav-link" id="menuzinho-tab">Menuzinho</a></li>
+					<li><a class="nav-link" id="cuidado-tab" >Cuidado</a></li>
+					<li><a class="nav-link" id="cursos-tab">Curso</a></li>
+					<li><a class="nav-link" id="bistro-tab">Bistrô</a></li>
+					<li><a class="nav-link" id="midia-tab">Mídia</a></li>
+					<li><a class="nav-link" id="localizacao-tab">Localização</a></li>
+					<li><a class="nav-link" id="contato-tab">Contato</a></li>
+					<li><a class="nav-link" id="idioma-tab" data-toggle="modal" data-target="#modal-idiomas">Idioma</a></li>
+			    </ul>
+			</div>
+		</nav>
 
 		<!--Texto inicial e forma-->
-		<div id="bg" style="background-image: url(assets/img/bg.png);">
+		<div id="bg" style="background-image: url(assets/img/responsive-bg.png);">
 			<div id="texto-inicial">
-				<h1> Você tem tempo <br> para fazer a <br> <span style="color:#bdd108;">melhor comida </span> <br> para seu bebê?</h1>
+				<h1> Você tem tempo para fazer a <span style="color:#bdd108;">melhor comida </span> para seu bebê?</h1>
 				<h3> Nós temos. </h3>
-				<h3 style="margin-bottom: 0px; color: #dea900;">E preparamos tudo com muito <br> amor e carinho sempre.</h3>
+				<h3 style="margin-bottom: 0px; color: #dea900;">E preparamos tudo com muito amor e carinho sempre.</h3>
 			</div>
-			<i class="fas fa-angle-down"></i>
 		</div>
 
 		<!--Slider-->
@@ -135,16 +114,15 @@
 					</div>
 
 					<!--Itens-->
-					<div id="itens" class="row justify-content-center">
+					<!-- <div id="itens" class="row justify-content-center">
 						<div class="col-1">
 							<a class="carousel-control-prev" href="#menuzinho-slider" role="button" data-slide="prev">
 								<i class="fas fa-caret-left" style="color: #24bec0; font-size: 36px;"></i>
 							</a>
 						</div>
 						<div class="col-10" style="margin-right: 0px; margin-left: 0px;">		
-							<div id="menuzinho-slider" class="carousel slide" data-ride="carousel">
+							<div id="menuzinho-slider" class="carousel slide flex" data-ride="carousel">
 							  	<div class="carousel-inner">
-							  	<!--Ciclo 01-->
 							  		<div class="carousel-item active">
 							  			<div class="container">
 							  				<div class="row">
@@ -207,8 +185,6 @@
 											</div>
 										</div>
 							   	 	</div>
-								   	
-								<!--Ver trabalho de ICS para filtrar-->
 							   	</div>
 							</div>
 						</div>	
@@ -217,7 +193,7 @@
 							    <i class="fas fa-caret-right" style="color: #24bec0; font-size: 36px;"></i>
 							</a>
 						</div>
-					</div>
+					</div> -->
 				</section>
 			</div>
 		</div>	
@@ -268,7 +244,7 @@
 						</div>
 						<div class="col-1"></div>
 					</div>
-			</section>
+				</section>
 			</div>
 		</div>
 
@@ -278,40 +254,41 @@
 				<section id="curso" class="sec-site"> 
 					<h1 class="titulo-h1"> Curso de Introdução Alimentar </h1>
 					<br> 
-					<div class="row justify-content-center">
-						<div class="col-1"> </div>
-						<div class="col-10">
+					<div class="row justify-content-center flex" style="display: flex;">
+						<div class="col-2"> </div>
+						<div class="col-8">
 							<p class="texto-grande">
-								<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? </span>
+								<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? Eget maximus volutpat, risus nisl pharetra sapien ac. </span>
 							</p>
 							<p class="texto-grande">
-								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit <br> amet eros facilisis.
+								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
 							</p>
 							<p class="texto-grande">
-								Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac <br> volutpat est ligula eu erat. 
+								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
 							</p>
 						</div>
-						<div class="col-1"> </div>
+						<div class="col-2"> </div>
 					</div>
 
+					<!--Imagens-->
 					<div class="row justify-content-center">
-						<div class="col-12">
-							<div class="col-sm-2">
+						<div class="col-12 flex">
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
 								<img class="img-fluid" src="assets/img/sopinhas.jpg">
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
 								<img class="img-fluid" src="assets/img/sopinhas.jpg">								
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
 								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
 								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
 								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
 							</div>
-							<div class="col-sm-2">
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
 								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
 							</div>
 						</div>
@@ -328,25 +305,44 @@
 				<section id="bistro" class="sec-site"> 
 					<h1 class="titulo-h1"> Petit Bistrô </h1>
 					<br> 
-					<div class="row justify-content-center">
-						<p class="texto-grande">
-							<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? </span>
-						</p>
-						<p class="texto-grande">
-							Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit <br> amet eros facilisis.
-						</p>
-						<p class="texto-grande">
-							Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac <br> volutpat est ligula eu erat. 
-						</p>
+					<div class="row justify-content-center flex">
+						<div class="col-2"> </div>
+						<div class="col-8">
+							<p class="texto-grande">
+								<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? Eget maximus volutpat, risus nisl pharetra sapien ac. </span>
+							</p>
+							<p class="texto-grande">
+								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
+							</p>
+							<p class="texto-grande">
+								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
+							</p>
+						</div>
+						<div class="col-2"> </div>
 					</div>
 
+					<!--Imagens-->
 					<div class="row justify-content-center">
-						<div class="img-fluid" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
-						<div class="img-fluid" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
-						<div class="img-fluid" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
-						<div class="img-fluid" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
-						<div class="img-fluid" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
-						<div class="img-fluid" style="background-image: url(assets/img/sopinhas.jpg); background-size: cover;"></div>
+						<div class="col-12 flex" style="margin:0;">
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
+								<img class="img-fluid" src="assets/img/sopinhas.jpg">
+							</div>
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
+								<img class="img-fluid" src="assets/img/sopinhas.jpg">								
+							</div>
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
+								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+							</div>
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
+								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+							</div>
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
+								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+							</div>
+							<div class="col-sm-2 col-lg-2" style="padding: 0;">
+								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+							</div>
+						</div>
 					</div>
 
 					<i class="fas fa-angle-down"></i>
@@ -360,7 +356,8 @@
 				<section id="midia" class="sec-site"> 
 					<h1 class="titulo-h1"> Petit na Mídia </h1>
 					<br> 
-					<div class="row justify-content-center">
+					<div class="row justify-content-center flex">
+						<div class="col-1"> </div>
 						<div class="col-10">
 							<div class="row">
 								<div class="col video">
@@ -404,6 +401,7 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-1"> </div>
 					</div>
 					<!-- SnapWidget -->
 				</section>
@@ -430,59 +428,65 @@
 
 		<!--Contato-->
 		<div class="container">
-			<div class="row">
+			<div class="row justify-content-center">
 				<section id="contato" class="sec-site"> 
 					<h1 class="titulo-h1"> Contato </h1>
 					<p class="texto-grande" style="color: #525252"> Ligue para nós! Temos delivery :D </p>
 					<p class="texto-grande"> Aceitamos débito e crédito </p>
 
 					<div class="row justify-content-center">
-						<a href="tel:+55 84 3014-1414">
-							<div class="btn-contato" style="background-color: #24bec0;">
-								<div class="row">
-									<div class="col-4">
-										<div class="btn-contato-icone">
-											<i class="fas fa-phone"></i>
+						<div class="col-sm-12 col-lg-4">
+							<a href="tel:+55 84 3014-1414">
+								<div class="btn-contato" style="background-color: #24bec0;">
+									<div class="row">
+										<div class="col-4">
+											<div class="btn-contato-icone">
+												<i class="fas fa-phone"></i>
+											</div>
+										</div>
+										<div class="col-8">
+											<p class="btn-contato-item"> Telefone </p>
+											<p class="btn-contato-info"> (84) 3014-1414 </p>
 										</div>
 									</div>
-									<div class="col-8">
-										<p class="btn-contato-item"> Telefone </p>
-										<p class="btn-contato-info"> (84) 3014-1414 </p>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-sm-12 col-lg-4">
+							<a href="https://api.whatsapp.com/send?phone=558481404440">
+								<div class="btn-contato" style="background-color: #bdd108;">
+									<div class="row">
+										<div class="col-4">
+											<div class="btn-contato-icone">
+												<i class="fas fa-comment"></i>
+											</div>
+										</div>
+										<div class="col-8">
+											<p class="btn-contato-item"> Whatsapp </p>
+											<p class="btn-contato-info"> (84) 98140-4400 </p>
+										</div>
 									</div>
 								</div>
 							</a>								
 						</div>
-						
-						<div class="btn-contato" style="background-color: #bdd108;">
-							<a href="https://api.whatsapp.com/send?phone=558481404440">
-								<div class="row">
-									<div class="col-4">
-										<div class="btn-contato-icone">
-											<i class="fas fa-comment"></i>
-										</div>
-									</div>
-									<div class="col-8">
-										<p class="btn-contato-item"> Whatsapp </p>
-										<p class="btn-contato-info"> (84) 98140-4400 </p>
-									</div>
-								</div>
-							</a>							
-						</div>
 
-						<div class="btn-contato" style="background-color: #dea900;">
+						<div class="col-sm-12 col-lg-4">
 							<a href="mailto:petitpoti@gmail.com">
-								<div class="row">
-									<div class="col-4">
-										<div class="btn-contato-icone">
-											<i class="fas fa-envelope"></i>
+								<div class="btn-contato" style="background-color: #dea900;">
+									<div class="row">
+										<div class="col-4">
+											<div class="btn-contato-icone">
+												<i class="fas fa-envelope"></i>
+											</div>
 										</div>
-									</div>
-									<div class="col-8">
-										<p class="btn-contato-item"> Email </p>
-										<p class="btn-contato-info"> petitpoti@gmail.com </p>
-									</div>
+										<div class="col-8">
+											<p class="btn-contato-item"> Email </p>
+											<p class="btn-contato-info"> petitpoti@gmail.com </p>
+										</div>
+									</div>							
 								</div>
-							</a>						
+							</a>
 						</div>
 					</div>
 				</section>
@@ -490,23 +494,25 @@
 		</div>
 
 		<!--Rodapé-->
-		<footer id="footer">
-			<div id="sub-footer">
-				Siga nas redes sociais    
-				<span style="margin-left: 12px;">
-					<a href="https://www.facebook.com/petitpoti"><i class="fab fa-facebook-square"></i></a>
-				</span>
-				<span style="margin-left: 6px;">
-					<a href="https://www.instagram.com/petitpoti"><i class="fab fa-instagram"></i></a>
-				</span>
-			</div>
-			<br>
-			Copyright © 2019 Petit Poti - Todos os direitos reservados
-			<br><br>
-			CNPJ 21.609.857/000183
-			<br><br>
-			Av. Rodrigues Alves, 1276 - Tirol, Natal/RN | CEP 59020-200
-		</footer>
+		<div class="container" id="footer" style="padding: 0;">
+			<section>
+				<div id="sub-footer">
+					Siga nas redes sociais    
+					<span style="margin-left: 12px;">
+						<a href="https://www.facebook.com/petitpoti"><i class="fab fa-facebook-square"></i></a>
+					</span>
+					<span style="margin-left: 6px;">
+						<a href="https://www.instagram.com/petitpoti"><i class="fab fa-instagram"></i></a>
+					</span>
+				</div>
+				<br>
+				Copyright © 2019 Petit Poti - Todos os direitos reservados
+				<br><br>
+				CNPJ 21.609.857/000183
+				<br><br>
+				Av. Rodrigues Alves, 1276 - Tirol, Natal/RN | CEP 59020-200
+			</section>
+		</div>
 
 		<script>
 			// Modal

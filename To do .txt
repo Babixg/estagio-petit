@@ -15,13 +15,12 @@
 > Tirar decoration do link (Contato) - ok
 > Transição por seção - amém daniel
  
-> Versão Mobile/responsiva
-
+> Versão Mobile/responsiva - ok
 > Carousel menuzinho
  - 
 > Botões funcionais menuzinho
  -
-> Ajustar imagens 
+> Ajustar imagens - ok
 
 > Escrever relatório
 
