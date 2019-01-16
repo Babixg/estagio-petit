@@ -103,6 +103,13 @@
 
 		/*Celulares*/
 			@media screen and (max-width: 767px) {
+				.container {
+					height: auto;
+				}
+
+				.sec-site {
+					height: auto;
+				}
 				#navbarNav {
 					background-color: white;
 					padding: 15px;
@@ -140,6 +147,10 @@
 
 		/*Tablets*/
 			@media screen and (min-width: 768px) {
+				.container {
+					height: auto;
+				}
+
 				#texto-inicial {
 					margin: 50px 30px 0px 50px;
 					padding: 10px;
@@ -160,8 +171,13 @@
 
 		/*PC*/
 			@media screen and (min-width: 1200px) {
+				.container {
+					height: 100vh;
+					width: 100vw;
+				}
+
 				#texto-inicial {
-					margin: 100px 30px 0px 100px;
+					margin: 50px 30px 0px 100px;
 					padding: 10px;
 					width: 30%;
 					top: 8%;
@@ -211,6 +227,7 @@
 			font-weight: bold;
 			font-style: italic;
 			color: white;
+			margin: 0;
 		}
 
 		.modal-texto a {
@@ -226,9 +243,9 @@
 		}
 
 /*Menuzinho*/
-	#menuzinho {
-		/*background-color: red;*/
-	}
+	/* #menuzinho {
+		background-color: red;
+	} */
 
 	/*Botões/Filtros*/
 		.btn-menuzinho {
@@ -272,38 +289,6 @@
 				}
 
 	/*Itens*/
-		.m-item {
-			width: 250px;
-			height: 340px;
-			padding: 15px;
-			margin: 25px 10px 10px 10px;
-			border-radius: 60px;
-			box-shadow: 0px 1px 10px grey;
-			overflow: hidden;
-		}
-			.m-item img {
-				width: 260px;
-				margin: -15px -15px 0px -15px;
-				border-radius: 60px 60px 0px 0px;
-			}
-
-			.m-item h5 {
-				font-weight: bold;
-				color: #bdd108;
-				margin: 10px;
-			}
-
-			.item-desc {
-				font-size: 0.9rem;
-				font-weight: bold;
-				color: #525252;
-			}
-		
-			.item-m-desc {
-				font-size: 0.7rem;
-				font-weight: bold;
-				color: #8b8b8b;
-			}
 
 /*Nosso Cuidado*/
 	#cuidado {
@@ -373,9 +358,9 @@
 		}
 
 /*Contato*/
-	#contato {
-		height: 400px;
-	}
+		#contato {
+			margin-bottom: 50px;
+		}
 
 		#contato .texto-grande {
 			font-weight: bold;
