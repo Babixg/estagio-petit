@@ -4,6 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Petit Poti</title>
+		<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
 		<meta name="description" content="Comida de verdade.">
 		<!--Script-->
 		<script src="assets/vendors/jquery.min.js"></script>
@@ -22,6 +23,7 @@
 		<!--Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 		<style>
 			.home-demo .item {
 				background: white;
@@ -29,53 +31,19 @@
 				justify-content: center;
 			}
 
-			.m-item {
-				width: 250px;
-				height: 340px;
-				background: white;
-				margin: 25px 10px 10px 10px;
-				border-radius: 60px;
-				box-shadow: 0px 1px 10px grey;
-				overflow: hidden;
+			#btn-nav:hover, #btn-nav:focus {
+				background-color: #bdd108;
 			}
-			.m-item img {
-				width: 260px;
-				border-radius: 60px 60px 0px 0px;
-			}
-
-			.m-item h5 {
-				font-weight: bold;
-				color: #bdd108;
-				margin: 10px;
-			}
-
-			.item-desc {
-				font-size: 0.9rem;
-				font-weight: bold;
-				color: #525252;
-			}
-		
-			.item-m-desc {
-				font-size: 0.7rem;
-				font-weight: bold;
-				color: #8b8b8b;
-			}
-
-			.m-item-text {
-				width: 100%;
-				padding: 15px;
-				padding-top: 0;
-			}
-		</style>		
-		</head>
+		</style>	
+	</head>
 	<body>
 		<!--Nav-->
 		<nav id="navzinha" class="nav navbar navbar-expand-lg" style="height: 50px;  position: fixed;">
-			<a class="navbar-brand" href="#">
-			    <img src="assets/img/petitpoti.png" width="150" alt="Petit Poti">
+			<a class="navbar-brand" href="#" style="margin-left: 2rem">
+			    <img src="assets/img/logo.png" width="150" alt="Petit Poti">
 			</a>
 
-		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+		  	<button id="btn-nav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 		    	<i class="fas fa-bars" style="color: #24bec0;"></i>
 		  	</button>
 
@@ -97,8 +65,8 @@
 		<!--Texto inicial e forma-->
 		<div id="bg" style="background-image: url(assets/img/responsive-bg.png);">
 			<div id="texto-inicial">
-				<h1> Você tem tempo para fazer a <span style="color:#bdd108;">melhor comida </span> para seu bebê?</h1>
-				<h3> Nós temos. </h3>
+				<h1 style="color: #24bec0;"> Você tem tempo para fazer a <span style="color:#bdd108;">melhor comida </span> para seu bebê?</h1>
+				<h3  style="color: #24bec0;"> Nós temos. </h3>
 				<h3 style="margin-bottom: 0px; color: #dea900;">E preparamos tudo com muito amor e carinho sempre.</h3>
 			</div>
 		</div>
@@ -126,8 +94,8 @@
 
 		<!--Modal-->
 		<div class="modal fade" id="modal-idiomas">
-			<div class="modal-dialog" style="background-image: url(assets/img/bg-modal.png); background-size: 100%; background-repeat: no-repeat;">
-				<div class="modal-content" style="background-color: transparent; border: none; padding: 35px 50px;">
+			<div class="modal-dialog" style="background-image: url(assets/img/bg-modal.png);">
+				<div class="modal-content" style="background-color: transparent; border: none;">
 					<div class="row justify-content-end">
 						<button type="button" class="close" data-dismiss="modal">
 							<span aria-hidden="true" style="font-size: 36px; color: white;">&times;</span>
@@ -135,8 +103,8 @@
 					</div>
 					<div class="row justify-content-center">
 						<h4 class="modal-title">Escolha um idioma
-						<h4 class="modal-title" style="color: #f0f0f0">Choose your language <br></h4>
-						<h4 class="modal-title" style="color: #e1e1e1">Seleccione el idioma</h4>
+						<h4 class="modal-title m" style="color: #f0f0f0">Choose your language <br></h4>
+						<h4 class="modal-title m" style="color: #e1e1e1">Seleccione el idioma</h4>
 					</div>
 					<div class="row justify-content-center" style="margin-top: 30px;">
 						<p class="modal-texto"> <a href="pt.html"> PT </a></p>
@@ -151,39 +119,25 @@
 		<div class="container">
 			<div class="row">
 				<section id="menuzinho" class="sec-site"> 
-
-					<!--Botões-->
-
 					<div class="home-demo">
 						<div class="row">
-						  <div class="large-12 columns">
-
-							<h1 class="titulo-h1"> Menuzinho </h1>
-							<p class="texto-grande" style="color: #525252;"> Para crianças a partir de 6 meses </p>
-							<div class="row justify-content-center" style="margin-bottom: 30px;">
-								<button type="button" class="btn-menuzinho azul">Ciclo 1</button>
-								<button onclick="menuzinhoFiltro('ciclo2')" type="button" class="btn-menuzinho azul">Ciclo 2</button>
-								<button onclick="menuzinhoFiltro('cresc')" type="button" class="btn-menuzinho azul">Crescidinhos</button>
-								<button onclick="menuzinhoFiltro('cubin')" type="button" class="btn-menuzinho laranja">Cubinhos</button>
-								<button onclick="menuzinhoFiltro('sopin')" type="button" class="btn-menuzinho laranja">Sopinhas</button>
-								<button onclick="menuzinhoFiltro('frutin')" type="button" class="btn-menuzinho laranja">Frutinhas</button>
-								<button onclick="menuzinhoFiltro('lanches')" type="button" class="btn-menuzinho verde">Lanches e Festas</button>
-								<button onclick="menuzinhoFiltro('outros')" type="button" class="btn-menuzinho verde">Outros</button>
-							</div>
-
-							<div class="owl-carousel">
-							  <div class="item">
-								<div class="m-item">
-									<img src="assets/img/bolinhos.jpg">
-									<h5> Bolinhos </h5>
-									<div class="m-item-text">
-										<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
-										<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
-									</div>
+						  	<div class="large-12 columns">
+								<h1 class="titulo-h1"> Menuzinho </h1>
+								<p class="texto-grande" style="color: #525252;"> Para crianças a partir de 6 meses </p>
+								<div class="row justify-content-center" style="margin-bottom: 10px;">
+									<button type="button" class="btn-menuzinho azul">Ciclo 1</button>
+									<button onclick="" type="button" class="btn-menuzinho azul">Ciclo 2</button>
+									<button onclick="" type="button" class="btn-menuzinho azul">Crescidinhos</button>
+									<button onclick="" type="button" class="btn-menuzinho laranja">Cubinhos</button>
+									<button onclick="" type="button" class="btn-menuzinho laranja">Sopinhas</button>
+									<button onclick="" type="button" class="btn-menuzinho laranja">Frutinhas</button>
+									<button onclick="" type="button" class="btn-menuzinho verde">Lanches e Festas</button>
+									<button onclick="" type="button" class="btn-menuzinho verde">Outros</button>
 								</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
+
+								<div class="owl-carousel">
+								  	<div class="item">
+										<div class="m-item">
 											<img src="assets/img/bolinhos.jpg">
 											<h5> Bolinhos </h5>
 											<div class="m-item-text">
@@ -191,9 +145,9 @@
 												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 											</div>
 										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
+								  	</div>
+								  	<div class="item">
+										<div class="m-item">
 											<img src="assets/img/bolinhos.jpg">
 											<h5> Bolinhos </h5>
 											<div class="m-item-text">
@@ -201,112 +155,51 @@
 												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 											</div>
 										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
+								  	</div>
+								  	<div class="item">
+										<div class="m-item">
 											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
+											<h5> Bolinheee </h5>
 											<div class="m-item-text">
 												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
 												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 											</div>
 										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
+								  	</div>
+								  	<div class="item">
+										<div class="m-item">
 											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
+											<h5> Bolinhaaa </h5>
 											<div class="m-item-text">
 												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
 												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
 											</div>
 										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
-											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
-											<div class="m-item-text">
-												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
-												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
-											</div>
-										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
-											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
-											<div class="m-item-text">
-												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
-												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
-											</div>
-										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
-											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
-											<div class="m-item-text">
-												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
-												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
-											</div>
-										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
-											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
-											<div class="m-item-text">
-												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
-												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
-											</div>
-										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
-											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
-											<div class="m-item-text">
-												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
-												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
-											</div>
-										</div>
-							  </div>
-							  <div class="item">
-									<div class="m-item">
-											<img src="assets/img/bolinhos.jpg">
-											<h5> Bolinhos </h5>
-											<div class="m-item-text">
-												<p class="item-desc"> Sem glúten, sem lactose e com açúcar na medida certa. </p>
-												<p class="item-m-desc"> Ingredientes: Farinha de arroz, açúcar demerara, manteiga, cacau, ovos e fermento químico. </p>
-											</div>
-										</div>
-							  </div>
+								  	</div>
+								</div>
 							</div>
-						  </div>
 						</div>
-					  </div>
-					  <script>
+					</div>
+				  	<script>
 						var owl = $('.owl-carousel');
 						owl.owlCarousel({
-						  margin: 10,
-						  loop: true,
-						  responsive: {
-							0: {
-							  items: 1
-							},
-							600: {
-							  items: 2
-							},
-							1000: {
-							  items: 3
-							}
-						  }
+					 		margin: 10,
+					  		loop: true,
+					  		responsive: {
+								0: {
+						  			items: 1
+								},
+								600: {
+								  	items: 2
+								},
+								1000: {
+						  			items: 3
+								}
+					  		}
 						})
-					  </script>
-
-					  <script src="assets/vendors/highlight.js"></script>
-					  <script src="assets/js/app.js"></script>
+				  	</script>
+				  	<script src="assets/vendors/highlight.js"></script>
+				  	<script src="assets/js/app.js"></script>
 				</section>
 			</div>
 		</div>	
@@ -314,8 +207,8 @@
 		<!--Nosso Cuidado-->
 		<div class="container">
 			<div class="row">
-				<section id="cuidado" class="sec-site">
-					<div style="display: flex;">
+				<section id="cuidado" class="sec-site flex">
+					<div">
 						<div class="col-12">
 							<h1 class="titulo-h1">Nosso Cuidado</h1>
 							<br> 
@@ -619,9 +512,7 @@
 				CNPJ 21.609.857/000183
 				<br><br>
 				Av. Rodrigues Alves, 1276 - Tirol, Natal/RN | CEP 59020-200
-			</section>
-
-			
+			</section>	
 		</div>
 
 		<script>
