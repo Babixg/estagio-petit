@@ -1,0 +1,29 @@
+Petit Poti
+Desenvolvido por Bárbara Xavier
+Estágio de 03/10/2018 - 03/01/2019
+Total de 354h
+
+Tecnologias utilizadas:
+Photoshop
+HTML
+CSS
+JavaScript
+Bootstrap
+Owl Carousel 
+Jquery
+PHP
+
+Contagem horas ----------
+Out
+3, 4 e 5 = 18h
+8 a 11 = 24h
+15 a 01 = 14x6 = 84h
+Nov 
+5 a 9 = 30h
+12 a 14 = 18h
+19 a 30 = 60h
+Dez
+3 a 21 = 15x6 = 90h
+26, 27, 28, 31 = 24h
+2  = 6h
+    Total de 354h (ou 360h, de acordo com site)

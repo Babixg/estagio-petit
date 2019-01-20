@@ -1,0 +1,493 @@
+/* item {
+	FONTE
+	TAMANHO
+	MARGEM e PADDING
+	COR 
+	ESTILO 
+	POSIÇÃO
+}*/
+
+/*Todos*/
+	* {
+		font-family: 'Quicksand', sans-serif;
+	}
+
+		.fa-angle-down {
+			position: absolute;
+			left: 50%;
+			font-size: 48px;
+			color: #24bec0;
+			margin-top: 15px;
+		}
+
+		.titulo-h1 {
+			font-weight: bold;
+			color: #24bec0;
+			margin: 50px 0px 15px 0px;
+		}
+
+		.sec-site {
+			color: #24bec0;
+			width: 100%;
+			text-align: center;	
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		.flex {
+			display: flex;
+		} 
+
+/*Navbar*/
+	#navzinha {
+		font-weight: bold;
+		font-size: 1.25rem;
+		width: 100%;
+		min-height: 45px;
+		background-color: white;
+	    box-shadow: 0px 0px 3px grey;
+		z-index: 10;
+		position: fixed;
+	}
+		#navzinha .nav-link {
+			text-align: right;
+			color: #24bec0;
+			user-select: none;
+			cursor: pointer;
+		}
+
+/*Início*/
+	#bg {
+		-webkit-background-size: cover;
+   		background-size: cover;
+   		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+		position: absolute;
+		z-index: 5; 
+	}
+
+		#texto-inicial {
+			width: 35%;
+			font-weight: bold;
+			color: #24bec0;
+			position: absolute;
+			z-index: 6;
+		}
+
+		#texto-inicial h1 {
+			font-weight: bold;
+		}
+
+		#texto-inicial h3 {
+			font-weight: medium;
+		}
+
+		/*Celulares*/
+			@media screen and (max-width: 767px) {
+				.container {
+					height: auto;
+				}
+
+				.sec-site {
+					height: auto;
+				}
+				#navbarNav {
+					background-color: white;
+					padding: 15px;
+				}
+
+				.titulo-h1 {
+					font-size: 2.3rem;
+				}
+
+				#contato {
+					height: auto;
+				}	
+
+				#texto-inicial {
+					margin: 50px 30px 0px 20px;
+					padding: 10px;
+					width: 55%;
+					top: 8%;
+				}
+
+					#texto-inicial h1 {
+						font-size: 1.8rem;
+					}
+
+					#texto-inicial h3 {
+						width: 150%;
+						font-size: 1.5rem;
+						margin: 1.5rem 0px;
+					}
+
+				#cuidado img {
+					margin-top: 20px;
+				}
+			}	
+
+		/*Tablets*/
+			@media screen and (min-width: 768px) {
+				.container {
+					height: auto;
+				}
+
+				#texto-inicial {
+					margin: 50px 30px 0px 50px;
+					padding: 10px;
+					width: 40%;
+					top: 8%;
+				}
+
+					#texto-inicial h1 {
+						font-size: 3.5rem;
+					}
+
+					#texto-inicial h3 {
+						width: 150%;
+						font-size: 2.5rem;
+						margin: 2.5rem 0px;
+					}
+			}
+
+		/*PC*/
+			@media screen and (min-width: 1200px) {
+				.container {
+					height: 100vh;
+					width: 100vw;
+				}
+
+				#texto-inicial {
+					margin: 50px 30px 0px 50px;
+					padding: 10px;
+					width: 30%;
+					top: 8%;
+				}
+
+					#texto-inicial h1 {
+						font-size: 3rem;
+					}
+
+					#texto-inicial h3 {
+						width: 150%;
+						font-size: 2rem;
+						margin: 2rem 0px;
+					}
+			}
+
+	#slider {
+		z-index: 0;
+	}
+		.slider-img {
+			z-index: 0;
+			width: 100%;
+			height: 100vh;
+			background-size: cover;
+			position: center
+		}	
+
+/*Modal Idiomas*/
+	#modal-idiomas {
+		overflow: hidden;
+	}
+		.modal-dialog {
+			background-image: url(assets/img/bg-modal.png); 
+			background-size: 100%; 
+			background-repeat: no-repeat; 
+			height: 100%;
+			margin-top: 100px;
+		}
+
+		.modal-content {
+			background-color: transparent; 
+			border: none; 
+			padding: 30px 55px 20px 40px;
+		}
+
+		.modal-title {
+			font-size: 28px;
+			font-weight: bold;
+			font-style: italic;
+			color: white;
+			margin: 0;
+		}
+
+		.m {
+			font-size: 26px;
+		}
+
+
+		.modal-texto a {
+			font-size: 24px;
+			font-weight: bold;
+			color: #525252;
+			margin: 0px 40px 20px -20px;
+		}
+
+		.modal-texto a:hover {
+			text-decoration: none;
+			color: white;
+		}
+
+		/*Celulares*/
+			@media screen and (max-width: 767px) {
+				.modal-content {
+					padding: 15px 40px 20px 25px;
+				}
+				
+
+				.modal-title {
+					font-size: 22px;
+				}
+
+				.m {
+					font-size: 16px;
+				}
+
+				.modal-texto a {
+					font-size: 16px;
+				}
+			}
+
+/*Menuzinho*/
+	/* #menuzinho {
+		background-color: red;
+	} */
+
+	/*Botões/Filtros*/
+		.btn-menuzinho {
+			background-color: white;
+			width: auto;
+			height: 40px;
+			margin: 5px;
+			padding: 2px 10px;		
+			border-radius: 20px;
+			outline: none;
+		}
+
+		.btn-menuzinho:focus {
+			outline: none;
+		}
+
+			.azul {
+				color: #24bec0;
+				border: 5px solid #24bec0;
+			}
+				.azul:hover{
+					color: white;
+					background-color: #24bec0;
+				}
+
+			.laranja {
+				color: #dea900;
+				border: 5px solid #dea900;
+			}
+				.laranja:hover {
+					color: white;
+					background-color: #dea900;
+				}
+
+			.verde {
+				color: #bdd108;
+				border: 5px solid #bdd108;
+			}
+				.verde:hover {
+					color: white;
+					background-color: #bdd108;
+				}
+
+	/*Itens*/
+		.m-item {
+			width: 250px;
+			height: 340px;
+			background: white;
+			margin: 20px 10px 10px 10px;
+			border-radius: 60px;
+			box-shadow: 0px 1px 10px grey;
+			overflow: hidden;
+		}	
+			.m-item .imagem {
+				height: 160px;
+				background-size: cover;
+			}
+
+			.m-item img {
+				width: 260px;
+				border-radius: 60px 60px 0px 0px;
+			}
+
+			.m-item h5 {
+				font-weight: bold;
+				color: #bdd108;
+				margin: 10px;
+			}
+
+			.item-desc {
+				font-size: 0.9rem;
+				font-weight: bold;
+				color: #525252;
+				margin-bottom: 10px;
+			}
+		
+			.item-m-desc {
+				font-size: 0.7rem;
+				font-weight: bold;
+				color: #8b8b8b;
+			}
+
+			.m-item-text {
+				width: 100%;
+				padding: 15px;
+				padding-top: 0;
+			}	
+
+/*Nosso Cuidado*/
+	#cuidado {
+		color: #7e7e7e;
+		flex-direction: column;
+		align-content: flex-end;
+		justify-content: space-evenly;
+	}
+
+		#cuidado img {
+			width: 30%;
+			margin-bottom: 10px;
+		}
+
+/*Curso*/
+	#curso {
+		font-weight: bold;
+		color: #7e7e7e;
+		align-content: flex-end;
+	}
+
+		.texto-grande {
+			font-size: 20px;
+		}
+
+/*Bistrô*/
+	#bistro {
+		font-weight: bold;
+		color: #7e7e7e;
+		align-content: flex-end;
+	}
+
+/*Mídia*/
+	#midia {
+
+	}
+		.video {
+			height: 220px;
+			margin: 0px 10px 20px 10px;
+			padding: 15px;
+			border: 10px solid #bdd108;
+			border-radius: 60px;
+		}
+
+		.desc-video {
+			font-size: 22px;
+			font-weight: bold;
+			color: #bdd108;
+			margin-top: 5px;
+		}
+
+		#instagram-widget {
+			border:none;
+			overflow:hidden;
+			width:100%;
+			margin-left: 0px;
+		}
+
+/*Localização*/
+	#localização {
+	}
+
+		#localizacao .texto-grande {
+			font-weight: bold;
+			color: #7e7e7e;
+		}
+
+/*Contato*/
+		#contato {
+			margin-bottom: 50px;
+		}
+
+		#contato .texto-grande {
+			font-weight: bold;
+			color: #7e7e7e;
+		}
+
+		.btn-contato {
+			text-align: left;
+			width: 310px;
+			height: 80px;
+			margin: 20px 15px;
+			padding: 10px;
+			border-radius: 50px;
+		}
+
+			.btn-contato:hover {
+				box-shadow: 0px 0px 3px grey;
+			}
+
+			#contato a:hover {
+				text-decoration: none;
+			}
+
+			.btn-contato-icone {
+				font-size: 36px;
+				text-align: center;
+				height: 60px;
+				width: 90px;
+				color: #525252;
+				padding: 12px;
+				background-color: white;
+				border-radius: 30px;
+			}
+
+			.btn-contato-item {
+				text-align: left;
+				font-size: 24px;
+				font-weight: bold;
+				color: white;
+				margin: 0px;
+			}
+
+			.btn-contato-info {
+				font-size: 14px;
+				font-weight: bold;
+				color: #525252;
+				margin-top: -2px;
+			}
+
+/*Footer*/
+	#footer {
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		height: 300px;
+		width: 100%;
+		max-width: 100%;
+		background-color: #24bec0;
+	}
+
+		#sub-footer{
+			height: 48px;
+			width: 100%;
+			margin: 0;
+			padding: 10px;
+			background-color: #27cfd1;
+		}
+
+			#sub-footer a {
+				font-size: 24px;
+				color: white;
+			}
