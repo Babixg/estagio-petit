@@ -1,6 +1,5 @@
 //Navbar
 	$(document).ready(function (){
-		$("#menuzinho-tab").preventDefault();
 		$("#inicio-tab").click(function(){
 		    $('html, body').animate({
 		        scrollTop: $("#bg").offset().top-70
@@ -10,6 +9,12 @@
 		$("#menuzinho-tab").click(function(){
 		    $('html, body').animate({
 		        scrollTop: $("#menuzinho").offset().top
+		    }, 1000);
+		});
+
+		$("#petit-tab").click(function(){
+		    $('html, body').animate({
+		        scrollTop: $("#petit").offset().top
 		    }, 1000);
 		});
 

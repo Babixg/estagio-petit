@@ -57,13 +57,14 @@
 			    <ul class="navbar-nav" style="text-align: right;">
 			      	<li><a class="nav-link" id="inicio-tab">Início</a></li>
 					<li><a class="nav-link" id="menuzinho-tab">Menuzinho</a></li>
+					<li><a class="nav-link" id="petit-tab">A Petit</a></li>
 					<li><a class="nav-link" id="cuidado-tab" >Cuidado</a></li>
 					<li><a class="nav-link" id="cursos-tab">Curso</a></li>
 					<li><a class="nav-link" id="bistro-tab">Bistrô</a></li>
 					<li><a class="nav-link" id="midia-tab">Mídia</a></li>
 					<li><a class="nav-link" id="localizacao-tab">Localização</a></li>
 					<li><a class="nav-link" id="contato-tab">Contato</a></li>
-					<li><a class="nav-link" id="idioma-tab" data-toggle="modal" data-target="#modal-idiomas">Idioma</a></li>
+					<!-- <li><a class="nav-link" id="idioma-tab" data-toggle="modal" data-target="#modal-idiomas">Idioma</a></li> -->
 			    </ul>
 			</div>
 		</nav>
@@ -73,7 +74,7 @@
 			<div id="texto-inicial">
 				<h1 style="color: #24bec0;"> Você tem tempo para fazer a <span style="color:#bdd108;">melhor comida </span> para seu bebê?</h1>
 				<h3  style="color: #24bec0;"> Nós temos. </h3>
-				<h3 style="margin-bottom: 0px; color: #dea900;">E preparamos tudo com muito amor e carinho sempre.</h3>
+				<h3 style="margin-bottom: 0px; color: #dea900;">E preparamos tudo com muito amor.</h3>
 			</div>
 		</div>
 
@@ -98,7 +99,7 @@
 		  	</div>
 		</div>
 
-		<!--Modal-->
+		<!--Modal
 		<div class="modal fade" id="modal-idiomas">
 			<div class="modal-dialog" style="background-image: url(assets/img/bg-modal.png);">
 				<div class="modal-content" style="background-color: transparent; border: none;">
@@ -119,7 +120,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 
 		<!--Menuzinho-->
 		<div class="container">
@@ -129,7 +130,6 @@
 						<div class="row">
 						  	<div class="large-12 columns">
 								<h1 class="titulo-h1"> Menuzinho </h1>
-								<p class="texto-grande" style="color: #525252;"> <!--Jogar desc categoria--> </p>
 
 								<!--Botões-->
 								<div class="row justify-content-center" style="margin-bottom: 10px;">
@@ -237,6 +237,31 @@
 			</div>
 		</div>
 
+		<!--A Petit Poti-->
+		<div class="container">
+			<div class="row">
+				<section id="petit" class="sec-site"> 
+					<h1 class="titulo-h1"> A Petit Poti </h1>
+					<br> 
+					<div class="row justify-content-center flex">
+						<div class="col-1"> </div>
+						<div class="col-10">
+							<p class="texto-grande">
+								O sexto mês é um marco na vida do bebê. É a partir dessa idade que se inicia o processo de alimentação complementar, pois o leite (materno ou fórmula láctea) não é mais suficiente para atender as necessidades nutricionais durante essa fase de crescimento tão acelerada. Nesse momento o paladar pode ser compreendido como uma tela em branco que deve ser preenchida com novos sabores, novas texturas, novos cheiros e principalmente, com uma alimentação natural e saudável.
+							</p>
+							<p class="texto-grande">
+								Nossa proposta é diferente de todas as opções industrializadas encontradas no mercado apresentadas sob a forma de papinhas e sopinhas. Oferecemos COMIDA DE VERDADE, com sabor, com alma, com saúde.
+							</p>
+							<p class="texto-grande">
+								Essa é a missão que abraçamos com muito orgulho aqui na Petit Poti, ajudando mamães, papais, familiares e cuidadores a oferecer uma alimentação prática, saudável, equilibrada, com textura e consistência adequada, seguindo todas as recomendações da Sociedade Brasileira de Pediatria.
+							</p>
+						</div>
+						<div class="col-1"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+
 		<!--Nosso Cuidado-->
 		<div class="container">
 			<div class="row">
@@ -248,34 +273,34 @@
 							<div class="row">
 								<div class="col-sm-12 col-lg-4">
 									<div> <img src="assets/img/planejamento.png"> </div>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Nossa equipe é composta por pediatra, nutricionista, cozinheira e auxiliares especialistas em bebês, alimentação e amor.
 								</div>
 								
 								<div class="col-sm-12 col-lg-4">
 									<div> <img src="assets/img/ingredientes.png"> </div>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Só trabalhamos com ingredientes 100% naturais, cuidadosamente selecionados. Todas as nossas hortaliças são orgânicas. 
 								</div>
 								
 								<div class="col-sm-12 col-lg-4">
 									<div> <img src="assets/img/preparo.png"> </div>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Nossa comidinha é amassada manualmente para que a textura e fibra do alimento sejam corretas desde a Introdução Alimentar.
 								</div>
 							</div>
 							<br> <br>
 							<div class="row">
 								<div class="col-sm-12 col-lg-4">
 									<div> <img src="assets/img/refrigeramento.png"> </div>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Após cozimento, a comida passa pelo CONGELADOR ULTRA RÁPIDO e segue para nossa CÂMARA FRIA que garante maior segurança microbiológica e conservação.
 								</div>
 								
 								<div class="col-sm-12 col-lg-4">
 									<div> <img src="assets/img/armazenamento.png"> </div>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Todas as nossas embalagens são BPA FREE e próprias para irem ao freezer e microondas. 
 								</div>
 								
 								<div class="col-sm-12 col-lg-4">
 									<div> <img src="assets/img/entrega.png"> </div>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									O delivery entrega a comidinha congelada ou aquecida (com talher e guardanapo) em qualquer ponto da cidade: shopping, aeroporto, restaurantes, etc. 
 								</div>
 							</div>
 							<i class="fas fa-angle-down"></i>
@@ -295,13 +320,15 @@
 						<div class="col-2"> </div>
 						<div class="col-8">
 							<p class="texto-grande">
-								<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? Eget maximus volutpat, risus nisl pharetra sapien ac. </span>
+								<span style="color:#bdd108;"> Curso de comida para bebês </span>
+								<br>
+							 	Introdução Alimentar na teoria, prática, produção e degustação: Nutrição + Cozinha + Experiência Petit Poti - Ensinamos receitas, técnicas e dicas de como comprar, preparar, armazenar, congelar, transportar e servir.
 							</p>
 							<p class="texto-grande">
-								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
+								Esse curso foi elaborado para você ficar segura para esta fase e oferecer ao seu bebê uma alimentação saudável desde o princípio. As mães aprendem, trocam experiências, tiram dúvidas e degustam.
 							</p>
 							<p class="texto-grande">
-								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
+								Nosso curso segue todas as diretrizes da Sociedade Brasileira de Pediatria e CFN - Conselho Federal de Nutricionistas.
 							</p>
 						</div>
 						<div class="col-2"> </div>
@@ -311,27 +338,25 @@
 					<div class="row justify-content-center">
 						<div class="col-12 flex">
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">
+								<img class="img-fluid" src="assets/img/curso1.jpg">
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">								
+								<img class="img-fluid" src="assets/img/curso2.jpg">								
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/curso3.jpg">	
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/curso4.jpg">	
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/curso5.jpg">	
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/curso6.jpg">	
 							</div>
 						</div>
 					</div>
-
-					<i class="fas fa-angle-down"></i>
 				</section>
 			</div>
 		</div>
@@ -346,13 +371,17 @@
 						<div class="col-2"> </div>
 						<div class="col-8">
 							<p class="texto-grande">
-								<span style="color:#bdd108;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit? Eget maximus volutpat, risus nisl pharetra sapien ac. </span>
+								<span style="color:#bdd108;">O nosso restaurante para bebês.</span>
+								As mamães escolhem o pratinho, nós aquecemos e eles já comem aqui mesmo. 
 							</p>
 							<p class="texto-grande">
-								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
+								Dispomos de babador, talheres, trocador. Tudo para que a experiência gastronômica do seu baby seja a melhor possível!
 							</p>
 							<p class="texto-grande">
-								Praesent sed augue ac magna euismod commodo vitae sed nulla. Nam sit amet eros facilisis. Pellentesque congue, nisl eget maximus volutpat, risus nisl pharetra sapien, ac volutpat est ligula eu erat. 
+								Uma ótima alternativa para os dias corridos sem estoque de comidinhas, volta do berçário ou idas ao pediatra.
+							</p>
+							<p class="texto-grande">
+								E as mamães também comem! A linha CRESCIDINHOS tem deliciosas opções para crianças maiores e adultos.
 							</p>
 						</div>
 						<div class="col-2"> </div>
@@ -362,27 +391,25 @@
 					<div class="row justify-content-center">
 						<div class="col-12 flex" style="margin:0;">
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">
+								<img class="img-fluid" src="assets/img/bistro1.jpg">
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">								
+								<img class="img-fluid" src="assets/img/bistro2.jpg">								
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/bistro3.jpg">	
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/bistro4.jpg">	
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/bistro5.jpg">	
 							</div>
 							<div class="col-sm-2 col-lg-2" style="padding: 0;">
-								<img class="img-fluid" src="assets/img/sopinhas.jpg">	
+								<img class="img-fluid" src="assets/img/bistro6.jpg">	
 							</div>
 						</div>
 					</div>
-
-					<i class="fas fa-angle-down"></i>
 				</section>
 			</div>
 		</div>
@@ -397,41 +424,14 @@
 
 							<div class="row">
 								<div class="col video">
-									<iframe width="240px" height="135px" 
-										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									<iframe width="300px" height="168px" 
+										src="https://www.youtube.com/embed/vtEpiIWy9pY">
 									</iframe>
 									<p class="desc-video"> Lorem Ipsum </p>
 								</div>
 								<div class="col video">
-									<iframe width="240px" height="135px" 
-										src="https://www.youtube.com/embed/tgbNymZ7vqY">
-									</iframe>
-									<p class="desc-video"> Lorem Ipsum </p>
-								</div>
-								<div class="col video">
-									<iframe width="240px" height="135px" 
-										src="https://www.youtube.com/embed/tgbNymZ7vqY">
-									</iframe>
-									<p class="desc-video"> Lorem Ipsum </p>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col video">
-									<iframe width="240px" height="135px" 
-										src="https://www.youtube.com/embed/tgbNymZ7vqY">
-									</iframe>
-									<p class="desc-video"> Lorem Ipsum </p>
-								</div>
-								<div class="col video">
-									<iframe width="240px" height="135px" 
-										src="https://www.youtube.com/embed/tgbNymZ7vqY">
-									</iframe>
-									<p class="desc-video"> Lorem Ipsum </p>
-								</div>
-								<div class="col video">
-									<iframe width="240px" height="135px" 
-										src="https://www.youtube.com/embed/tgbNymZ7vqY">
+									<iframe width="300px" height="168px" 
+										src="https://www.youtube.com/embed/D5IttHNjsj4">
 									</iframe>
 									<p class="desc-video"> Lorem Ipsum </p>
 								</div>
@@ -465,8 +465,8 @@
 			<div class="row justify-content-center">
 				<section id="contato" class="sec-site"> 
 					<h1 class="titulo-h1" style="margin: 0; margin-top: 50px;"> Contato </h1>
-					<p class="texto-grande" style="color: #525252"> Ligue para nós! Temos delivery :D </p>
-					<p class="texto-grande"> Aceitamos débito e crédito </p>
+					<p class="texto-grande" style="color: #525252"> Você pode nos ligar, fazer seu pedido pelo Whatsapp ou vir tomar na nossa loja tomar um cafezinho conosco. </p>
+					<p class="texto-grande"> Aceitamos débito e crédito - na loja e no delivery. </p>
 
 					<div class="row justify-content-center">
 						<div class="col-sm-12 col-lg-4">
@@ -498,7 +498,7 @@
 										</div>
 										<div class="col-8">
 											<p class="btn-contato-item"> Whatsapp </p>
-											<p class="btn-contato-info"> (84) 98140-4400 </p>
+											<p class="btn-contato-info"> Clique e faça seu pedido. </p>
 										</div>
 									</div>
 								</div>
@@ -554,8 +554,7 @@
 				$(document).ready(function(){
 					$('#modal-idiomas').modal({backdrop: 'static'});
 				});
-			}
-			
+			}		
 		</script>
 	</body>
 </html>
